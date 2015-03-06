@@ -41,6 +41,8 @@
 		D89479041AA82E2C00C9A9D8 /* Gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D89478EC1AA82E2C00C9A9D8 /* Gestures@2x.png */; };
 		D89479051AA82E2C00C9A9D8 /* Players.png in Resources */ = {isa = PBXBuildFile; fileRef = D89478ED1AA82E2C00C9A9D8 /* Players.png */; };
 		D89479061AA82E2C00C9A9D8 /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D89478EE1AA82E2C00C9A9D8 /* Players@2x.png */; };
+		D89D79861AA9514A00DB6C15 /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89D79851AA9514A00DB6C15 /* PlayerDetailsViewController.m */; };
+		D8A10D821AA990AB00EB4197 /* GamePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A10D811AA990AB00EB4197 /* GamePickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,10 @@
 		D89478EC1AA82E2C00C9A9D8 /* Gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gestures@2x.png"; sourceTree = "<group>"; };
 		D89478ED1AA82E2C00C9A9D8 /* Players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Players.png; sourceTree = "<group>"; };
 		D89478EE1AA82E2C00C9A9D8 /* Players@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Players@2x.png"; sourceTree = "<group>"; };
+		D89D79841AA9514A00DB6C15 /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
+		D89D79851AA9514A00DB6C15 /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
+		D8A10D801AA990AB00EB4197 /* GamePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePickerViewController.h; sourceTree = "<group>"; };
+		D8A10D811AA990AB00EB4197 /* GamePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,10 @@
 				D88082421AA83D9D00E77892 /* Player.m */,
 				D88082441AA84B6C00E77892 /* PlayerCell.h */,
 				D88082451AA84B6C00E77892 /* PlayerCell.m */,
+				D89D79841AA9514A00DB6C15 /* PlayerDetailsViewController.h */,
+				D89D79851AA9514A00DB6C15 /* PlayerDetailsViewController.m */,
+				D8A10D801AA990AB00EB4197 /* GamePickerViewController.h */,
+				D8A10D811AA990AB00EB4197 /* GamePickerViewController.m */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -343,8 +353,10 @@
 				D88082401AA83CF600E77892 /* PlayersViewController.m in Sources */,
 				D89478B61AA7FBE000C9A9D8 /* AppDelegate.m in Sources */,
 				D89478B31AA7FBE000C9A9D8 /* main.m in Sources */,
+				D8A10D821AA990AB00EB4197 /* GamePickerViewController.m in Sources */,
 				D88082461AA84B6C00E77892 /* PlayerCell.m in Sources */,
 				D88082431AA83D9D00E77892 /* Player.m in Sources */,
+				D89D79861AA9514A00DB6C15 /* PlayerDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
